@@ -41,7 +41,7 @@ body {
     padding: 0 2rem;
 }
 
-/* ===== NAVIGATION ===== */
+
 .navbar {
     position: fixed;
     top: 0;
@@ -171,7 +171,7 @@ body {
     background: var(--accent);
 }
 
-/* ===== HERO SECTION ===== */
+
 .hero {
     min-height: 100vh;
     display: flex;
@@ -486,7 +486,7 @@ body {
     60% { transform: translateX(-50%) translateY(-5px); }
 }
 
-/* ===== SECTIONS ===== */
+
 section {
     padding: 6rem 0;
     position: relative;
@@ -529,7 +529,7 @@ section {
     animation: shimmer 2s infinite;
 }
 
-/* ===== ABOUT SECTION ===== */
+
 .about {
     background: linear-gradient(135deg, var(--bg) 0%, var(--bg-light) 50%, var(--bg) 100%);
     position: relative;
@@ -723,7 +723,7 @@ section {
     font-size: 0.8rem;
 }
 
-/* ===== SKILLS SECTION ===== */
+
 .skills {
     background: var(--bg);
     position: relative;
@@ -844,7 +844,7 @@ section {
     to { width: var(--width, 0%); }
 }
 
-/* ===== PROJECTS SECTION ===== */
+
 .projects {
     background: linear-gradient(135deg, var(--bg-light) 0%, var(--bg) 50%, var(--bg-light) 100%);
     position: relative;
@@ -1009,7 +1009,7 @@ section {
     transform: translateY(-2px);
 }
 
-/* ===== CONTACT SECTION ===== */
+
 .contact {
     background: linear-gradient(135deg, var(--bg) 0%, var(--bg-light) 50%, var(--bg) 100%);
     position: relative;
@@ -1199,7 +1199,7 @@ section {
     cursor: not-allowed;
 }
 
-/* ===== FOOTER ===== */
+
 .footer {
     background: var(--bg);
     border-top: 1px solid var(--border);
@@ -1247,7 +1247,7 @@ section {
     box-shadow: 0 8px 25px rgba(139, 92, 246, 0.4);
 }
 
-/* ===== ANIMATIONS ===== */
+
 @keyframes fadeInUp {
     from {
         opacity: 0;
@@ -1270,7 +1270,7 @@ section {
     }
 }
 
-/* ===== RESPONSIVE ===== */
+
 @media (max-width: 768px) {
     .container {
         padding: 0 1rem;
@@ -1427,6 +1427,7 @@ section {
         font-size: 0.8rem;
     }
 }
+
 
 @media (max-width: 320px) {
     .stat-card {
