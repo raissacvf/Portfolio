@@ -736,7 +736,7 @@ section {
 
 .skills-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(4, 1fr);
     gap: 2rem;
 }
 
@@ -901,6 +901,23 @@ section {
     padding: 1.5rem;
     background: rgba(139, 92, 246, 0.05);
     border-bottom: 1px solid var(--border);
+}
+
+.project-star {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.25rem 0.75rem;
+    background: linear-gradient(135deg, #fbbf24 0%, #f59e0b 100%);
+    border-radius: 50px;
+    font-size: 0.75rem;
+    font-weight: 700;
+    color: var(--bg);
+    animation: pulse 2s infinite;
+}
+
+.project-star i {
+    font-size: 0.8rem;
 }
 
 .project-tech {
@@ -1370,8 +1387,12 @@ section {
     }
     
     .skills-grid {
-        grid-template-columns: 1fr;
+        grid-template-columns: repeat(2, 1fr);
         gap: 1.5rem;
+    }
+    
+    .skill-category {
+        padding: 1.5rem;
     }
     
     .projects-grid {
@@ -1382,12 +1403,6 @@ section {
     .contact-content {
         grid-template-columns: 1fr;
         gap: 2rem;
-    }
-    
-    .footer-content {
-        flex-direction: column;
-        text-align: center;
-        gap: 1.5rem;
     }
 }
 
@@ -1426,6 +1441,15 @@ section {
         padding: 1rem;
         font-size: 0.8rem;
     }
+    
+    .skills-grid {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+    
+    .skill-category {
+        padding: 1.5rem;
+    }
 }
 
 
@@ -1448,5 +1472,10 @@ section {
     
     .about-stats {
         gap: 0.5rem;
+    }
+    
+    .skills-grid {
+        grid-template-columns: 1fr;
+        gap: 1rem;
     }
 }
